@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+/*Estilos del header*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2F013;
+    
+}
+
+nav{
+    width: 55%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+nav ul li::first-letter{
+    font-size: 2rem;
+}
+
+header div h1{
+    font-size: 3.5rem;
+}
+
+header div span{
+    margin-left: 60px;
+    font-size: 2.2rem;
+}
+
+/*Estilos de Servicios*/
+
+.servicios{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+}
+.servicios h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cajaServicios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 75%;
+    text-align: center;
+}
+
+.cajaServicios img{
+    width: 100px;
+}
+
+.cajaServicios h3{
+    margin-top: 25px;
+}
+
+.cajaServicios .carta{
+    background-color: #F2F013;
+    width: 300px;
+    height: 300px;
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+    margin-left: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(168,168,168,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(168,168,168,1);
+    box-shadow: 10px 10px 5px 0px rgba(168,168,168,1);
+}
+
+.cajaServicios .carta:hover{
+    height: 350px;
+    font-size: 1.3rem;
+}
+
+
+
+
+.circulo{
+    width: 150px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.circulo{
+    background-color: #2FDD92;
+}
+
+.grupales{
+    background-color: #2F86A6;
+}
+
+/*Estilos del footer*/
+
+footer{
+    background-color: yellow;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Estilos sección beneficios*/
+.beneficios{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cajaBeneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.cajaBeneficios .carta{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(168,168,168,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(168,168,168,1);
+    box-shadow: 10px 10px 5px 0px rgba(168,168,168,1);
+}
+
+.cajaBeneficios .carta:hover{
+    margin-right: 50px;
+}
+.plan{
+    height: 60px;
+    background-color: #2FDD92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 200px;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    background-color: #F2F013;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100%;
+    width: 500px;
+
+}
+
+.distinto{
+    background-color: #2F86A6;
+}
