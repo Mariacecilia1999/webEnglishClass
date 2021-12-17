@@ -181,3 +181,168 @@ footer{
 .distinto{
     background-color: #2F86A6;
 }
+
+/*Estilos sección sumate*/
+.mainSumate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.sumate{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja1Formulario{
+    display: flex;
+}
+
+form input{
+    border: none;
+    border-bottom: 2px solid #2F86A6;
+    margin-left: 5px;
+    padding-top: 30px;
+}
+
+form .inputMail{
+    width: 60%;
+}
+
+form label{
+    margin-left: 15px;
+    padding-top: 20px;
+}
+
+form textarea{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    border: none;
+    border: #2F86A6 2px solid;
+}
+
+form{
+    font-size: 1.2rem;
+}
+
+.mainEquipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.mainEquipo h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cajaEquipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+table th, td{
+    width: 180px;
+    height: 50px;
+}
+
+table{
+    border-spacing: 10px 5px;
+    text-align: center;
+}
+
+th{
+    font-size: 1.3rem;
+    background-color: #2F86A6;
+    text-align: center;
+}
+
+td{
+    background-color: #2FDD92;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+.cajaBoton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+
+#mensajeEnviado{
+    display: none;
+}
+
+.cajaBoton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#enviar{
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: none;
+    padding: 10;
+    width: 80px;
+    background-color: #F2F013;
+    color: #2F86A6;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #2F86A6;
+}
+
+#mensajeEnviado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.claseOcultarForm{
+    display: none;
+}
+
+.claseCapturandoDiv{
+    margin-bottom:40px;
+}
+
+.claseParrafo{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #2FDD92;
+    height: 30px;
+    padding: 20px;
+    border-radius: 2%;
+}
+
+#mensajeEnviado h2{
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    color: #2F86A6;
+}
+
+#mensajeEnviado h2::first-letter{
+    font-size: 2rem;
+}
+
