@@ -57,7 +57,7 @@ header div span{
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    height: 70vh;
+   
 }
 .servicios h2{
     text-align: center;
@@ -68,9 +68,10 @@ header div span{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 400px;
     width: 75%;
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 .cajaServicios img{
@@ -85,6 +86,7 @@ header div span{
     background-color: #F2F013;
     width: 300px;
     height: 300px;
+    margin-bottom: 10px;
 }
 
 .carta{
@@ -346,3 +348,150 @@ td{
     font-size: 2rem;
 }
 
+
+
+/*Mediaqueries*/
+
+@media (max-width:900px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        height: 30vh;
+    }
+
+    header div h1{
+        font-size: 1.7rem;
+        margin-left: 30px;
+    }
+
+    header div span{
+        font-size: 1.3rem;
+        margin-right:35px;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul{
+        height: 95%;
+    }
+
+    header nav ul li a{
+        font-size: 1.2rem;
+        height: 100%;
+    }
+
+    header nav ul li a:hover{
+        color: white;
+    }
+
+    .beneficios{
+        height: 70vh;
+    }
+
+    .beneficios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+   .cajaServicios{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .cajaServicios .carta{
+       margin-bottom: 30px;
+       margin-top: 20px;
+   }
+
+   .beneficios h2{
+       margin-bottom: 35px;
+   }
+
+   .beneficios .carta{
+       width: 80%;
+       height: 90%;
+       margin-bottom: 30px;
+   }
+
+   .plan{
+       height: 85%;
+   }
+
+    table{
+        width: 90%;
+        border-spacing: 2px;
+        height: 100vh;
+    }
+
+    .mainEquipo{
+        height: 70%;
+    }
+
+
+    .cajaEquipo{
+        height: 100%;
+    }
+
+
+    .caja1Formulario{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mensajeEnviado p{
+        width:70%;
+        font-size: 1.2rem;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .mainSumate{
+        height: 70vh;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .sumate h2{
+        margin-top: 40px;
+    }
+
+    form{
+        height: 80%;
+    }
+
+    form input:focus{
+        height: 100%;
+        color: #F2F013;
+    }
+
+    form input{
+        width: 200px;
+    }
+
+    .cajaMail{
+        display: flex;
+    }
+    .inputMail{
+        margin-left: -30px;
+    }
+    
+    .cajaEquipo, .mainEquipo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #cajaEquipo{
+        height: 50%;
+    }
+
+    .mainEquipo h2{
+        margin-top: -30px;
+    }
+
+    
+}
